@@ -1,0 +1,106 @@
+body {
+  max-width:100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9FA4A6;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+#top_img {
+  height:400px;
+}
+#top_img  img{
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  left: 0px;
+/*  top: 42px;
+*/}
+
+.centered {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+}
+
+#secondMain {
+  display:block;
+  padding-top:90px;
+  width: 100%;
+  height: 250px;
+  text-align:center;
+}
+
+#thirdMain {
+  display:block;
+/*  padding-top:50px;
+*/  width: 100%;
+  height: 500px;
+  background-color:#F39A1E;
+  text-align:center;
+}
+
+.wrapper {
+  padding-left:28%;
+  padding-right:9%;
+  padding-top:100px;
+  padding-bottom:20px;
+  margin:0 auto;
+}
+.researchTopics {
+  float:left;
+  width: 170px;
+  height: 300px;
+  margin-right:70px;
+  background-color:#C4C4C4;
+}
+
+#forthMain {
+  display:flex;
+  padding-top:90px;
+  width: 100%;
+  height: 400px;
+  color:white;
+  text-align:center;
+  margin: 0 auto;
+}
+
+#sub-left {
+  flex-basis: 48%;
+  flex-grow: 0;
+  float: left;
+}
+
+#sub-left img{
+  padding-left:6%;
+   margin: 0 auto;
+   width:80%;
+}
+#sub-right {
+  flex-basis: 52%;
+  flex-grow: 0;
+  color:black;
+  margin-right:30px;
+}
+
